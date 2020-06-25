@@ -9,6 +9,9 @@ import { CareersComponent } from './careers/careers.component';
 import { AdminComponent } from './admin/admin.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SubsidiariesComponent } from './subsidiaries/subsidiaries.component';
+import { ManagejobsComponent } from './careers/managejobs/managejobs.component';
+import { ApplyjobsComponent } from './careers/applyjobs/applyjobs.component';
+import { ViewjobsComponent } from './careers/viewjobs/viewjobs.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { SubsidiariesComponent } from './subsidiaries/subsidiaries.component';
     CareersComponent,
     AdminComponent,
     ProjectsComponent,
-    SubsidiariesComponent
+    SubsidiariesComponent,
+    ManagejobsComponent,
+    ApplyjobsComponent,
+    ViewjobsComponent
   ],
   imports: [
     BrowserModule
